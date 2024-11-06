@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+
+    background-color: #211F20;
+    color: #333;
+}
+
+
+header {
+    background: radial-gradient(circle, #5B483A 0%, #262425 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    color: #f1cdb3;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    background: radial-gradient(circle, #5B483A 0%, #262425 100%);
+    color: #f8f8f8;
+    height: 100vh;
+    text-align: left;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif; 
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none; 
+    font-family: Georgia;
+    font-size: 17px;
+    width: 207px;
+    height: 52px;
+    padding: 15px 45px;
+    background-color: #f1cdb3;
+    color: #292929;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.hero-image {
+    flex-shrink: 0;
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    min-height: 100vh; 
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+
+.about-img {
+    width: 300px; 
+    height: 408px;
+    border-radius: 10px; 
+}
+
+.about-text {
+    max-width: 600px;
+    color: #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
+
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.8; 
+    margin-bottom: 15px; 
+    color: #555;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: #4e2c2a;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+
+
+/* Pets Section */
+.pets {
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.pets h2 {
+    font-size: 50px;
+    color: #545454;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif; 
+    font-weight: 300; 
+}
+
+
+.pet-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.pet-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1px;
+    width: 1280px;
+    text-align: center;
+    
+}
+
+.pet-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.pet-card h3 {
+    font-size: 18px;
+    color: #4e2c2a;
+    margin-bottom: 10px;
+}
+
+.btn-learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1cdb3;
+    color: #292929;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-get-to-know {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    background-color: #f1cdb3;
+    color: #292929;
+    border-radius: 100px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.help {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.help h2 {
+    font-size: 35px;
+    color: #4e2c2a;
+    margin-bottom: 100px;
+    font-weight: 100; 
+    font-family: 'Georgia', serif; 
+}
+
+.help-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 170px;
+}
+
+.icon {
+    text-align: center;
+    width: 100px;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon p {
+    color: #4e2c2a;
+    font-size: 14px;
+}
+
+/* Donation Section */
+.donation {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.donation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px; 
+}
+
+.donation-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-text {
+    flex: 1;
+    max-width: 50%; 
+}
+
+.donation-text h2 {
+    font-size: 28px;
+    color: #4e2c2a;
+    margin-bottom: 20px;
+}
+
+.donation-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.donation-text .account-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.donation-text .legal-info {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+}
+
+
+.account-number {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1cdb3;
+    color: #292929;
+    border-radius: 9px;
+    font-size: 18px;
+}
+
+.legal-info {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+/* Contact Section */
+.contact {
+    background: radial-gradient(circle, #5B483A 0%, #262425 100%);
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.contact-info, .visit-info {
+    max-width: 300px;
+}
+
+.contact-info h3, .visit-info h3 {
+    font-size: 18px;
+    color: #f1cdb3;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif; 
+}
+
+.contact-info p, .visit-info p {
+    font-size: 16px;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-info img, .visit-info img {
+    width: 20px;
+}

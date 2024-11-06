@@ -1,0 +1,25 @@
+@media screen and (max-width : 1200px){ 
+    .card.active{ 
+        background: blue;
+    }
+
+}
+@media screen and(max-width: 992px){ 
+    .card.active{ 
+        background-color: red;
+
+    }
+    .products-heading{ 
+        justify-content: center;
+    }
+    .products-header{ 
+        justify-content: center;
+        gap: 30px;
+
+    }
+}
+/* @media screen and(max-width: 740px) {
+    .card.card.active{ 
+        width: ;
+    }
+} */
